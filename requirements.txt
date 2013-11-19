@@ -1,14 +1,14 @@
-setuptools
-pyramid>=1.3
-SQLAlchemy
-transaction
-pyramid_chameleon
-pyramid_tm
-pyramid_debugtoolbar
-pyramid_exclog
-zope.sqlalchemy
-pyramid_simpleform
-cryptacular
-waitress
-pycrypto
-webtest
+setuptools == 1.4
+pyramid == 1.4.5
+SQLAlchemy == 0.8.3
+transaction == 1.4.1
+pyramid_chameleon == 0.1
+pyramid_tm == 0.7
+pyramid_debugtoolbar == 1.0.9
+pyramid_exclog == 0.7
+zope.sqlalchemy == 0.7.3
+pyramid_simpleform == 0.6.1
+cryptacular == 1.4.1
+waitress == 0.8.7
+pycrypto == 2.6.1
+WebTest == 2.0.10
