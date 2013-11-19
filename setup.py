@@ -21,7 +21,7 @@ requires = [
     'cryptacular',
     'waitress',
     'pycrypto',
-    'webtest',
+    'WebTest',
     ]
 
 if sys.version_info[:3] < (2,5,0):
