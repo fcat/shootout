@@ -1,5 +1,3 @@
-setuptools == 1.4
-pyramid == 1.2
 SQLAlchemy == 0.8.3
 transaction == 1.4.1
 pyramid_chameleon == 0.1
@@ -10,5 +8,3 @@ zope.sqlalchemy == 0.7.3
 pyramid_simpleform == 0.6.1
 cryptacular == 1.4.1
 waitress == 0.8.7
-pycrypto == 2.6.1
-WebTest == 2.0.10
