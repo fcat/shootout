@@ -8,20 +8,20 @@ README = open(os.path.join(here, 'README.rst')).read()
 CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
-    'setuptools',
+    'setuptools >= 1.2',
     'pyramid>=1.3',
-    'SQLAlchemy',
-    'transaction',
-    'pyramid_chameleon',
-    'pyramid_tm',
-    'pyramid_debugtoolbar',
-    'pyramid_exclog',
-    'zope.sqlalchemy',
-    'pyramid_simpleform',
+    'SQLAlchemy >= 0.8.1',
+    'transaction == 1.4.1',
+    'pyramid_chameleon == 0.1',
+    'pyramid_tm > 0.6',
+    'pyramid_debugtoolbar > 1.0.8',
+    'pyramid_exclog > 0.6, <0.8',
+    'zope.sqlalchemy >= 0.7.3, != 0.7.4, <0.8',
+    'pyramid_simpleform >=0.6.1, <0.7, >=0.8, <1',
     'cryptacular',
     'waitress',
     'pycrypto',
-    'WebTest',
+    'WebTest == 2.0.9', # incompatible with locked version
     ]
 
 if sys.version_info[:3] < (2,5,0):
