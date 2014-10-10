@@ -21,7 +21,7 @@ requires = [
     'cryptacular',
     'waitress',
     'pycrypto',
-    'WebTest == 2.0.9', # incompatible with locked version
+    'WebTest == 2.0.10',
     ]
 
 if sys.version_info[:3] < (2,5,0):
